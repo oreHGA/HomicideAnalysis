@@ -1,2 +1,2 @@
 # HomicideAnalysis
-Analyzes a dataset and then answers questions about the Safety of State in America
+Analyzes a homicide dataset and then answers questions about the safety of states in America
