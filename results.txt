@@ -11,16 +11,16 @@ Dallas
 Maricopa
 
 Top Ten U.S Cities for Homicides: Victim Count 
-['Los Angeles', 4696]
-['New York', 3794]
-['Wayne', 2216]
-['Oklahoma', 1914]
-['Cook', 1906]
-['Harris', 1610]
-['Philadelphia', 1256]
-['Dade', 1222]
-['Dallas', 1092]
-['Maricopa', 1056]
+['Los Angeles', 4696L]
+['New York', 3794L]
+['Wayne', 2216L]
+['Oklahoma', 1914L]
+['Cook', 1906L]
+['Harris', 1610L]
+['Philadelphia', 1256L]
+['Dade', 1222L]
+['Dallas', 1092L]
+['Maricopa', 1056L]
 
 Top Ten U.S Cities for Homicides: Perpetrator Age Groups 
 ['Los Angeles', {'0-17': 2627, '18-25': 10803, '46+': 2224, '26-45': 10131}]
@@ -65,6 +65,7 @@ Average homicides/year:
 1990-1999: 20390/year
 1999-2009: 16233/year
 2009-2014: 14737/year
+
 Top 5 cities with firearm-related homicides
 California 68270
      Texas 41693

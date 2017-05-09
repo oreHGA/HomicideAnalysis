@@ -1,5 +1,13 @@
-#@author: Audie Mendaros cssc0741
-# Rifle, Firearm, Shotgun, Handgun, Gun
+'''
+    File name: firearms_class.py
+    @author: Audie Mendaros cssc0741
+    Date created: 4/30/2017
+    Date last modified: 5/8/2017
+    
+    Sort the list to find firearm-related homicides in the city.
+	# Rifle, Firearm, Shotgun, Handgun, Gun
+'''
+
 class Firearms:
     state_data = [['Alabama', 0], ['Alaska', 0], ['Arizona', 0], ['Arkansas', 0], ['California', 0],
                   ['Colorado', 0], ['Connecticut', 0], ['Delaware', 0], ['Florida', 0],

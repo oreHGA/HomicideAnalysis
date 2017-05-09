@@ -1,3 +1,14 @@
+'''
+    File name: finalproject.py
+    @author: Oreoluwa Ogundipe
+    Date created: 4/27/2017
+    Date last modified: 5/8/2017
+    
+    This is the main file. It imports a CSV file and stores it as an array. 
+    It then runs all the sorting methods, step by step, to answer our questions. 
+    The results is written to an output file. 
+'''
+
 import pandas as pd
 import homicide_class
 from nonfirearms_class import Nonfirearms

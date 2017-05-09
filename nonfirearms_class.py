@@ -1,6 +1,12 @@
-
-#@author: Audie Mendaros cssc0741
-#Blunt Object, Strangulation, Unknown, Knife, Fall, Drowning, Suffocation, Explosives, Fire, Poison
+'''
+    File name: nonfirearms_class.py
+    @author: Audie Mendaros cssc0741
+    Date created: 4/30/2017
+    Date last modified: 5/8/2017
+    
+    Sort the list to find non firearm-related homicides in the city.
+	Blunt Object, Strangulation, Unknown, Knife, Fall, Drowning, Suffocation, Explosives, Fire, Poison
+'''
 
 class Nonfirearms:
         state_data = [['Alabama', 0], ['Alaska', 0], ['Arizona', 0], ['Arkansas', 0], ['California', 0],

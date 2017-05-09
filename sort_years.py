@@ -1,4 +1,12 @@
-# Finds the number of homicides for each year, and sorts the list in a descending order.
+'''
+    File name: homicide_year_sort.py
+    @author: Simen Davanger Wilberg
+    Date created: 4/30/2017
+    Date last modified: 5/8/2017
+    
+    Finds the number of homicides for each year, and sorts the list in a descending orders. 
+'''
+
 def sort_years(homicide_array,outfile):
     f = open(outfile,"a") 
     years = [[x, 0] for x in range(1980,2015)]
@@ -11,12 +19,13 @@ def sort_years(homicide_array,outfile):
     # Sort years based on the count, descending
     years.sort(key=lambda x: x[1], reverse=True)
 
-    # Print years with most homicides. 
+    # write years with most homicides. 
 
     f.write('Years with most homicides:\n')
     for x in range(5):
         f.write('[' + str(years[x][0]) + ', ' + str(years[x][1]) + ']\n')
 
+    # write years with least homicides. 
     f.write('\n')
     f.write('Years with least homicides:\n')
     for x in range(len(years)-1, len(years)-6, -1) :

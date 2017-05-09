@@ -1,3 +1,13 @@
+ '''
+    File name: homicideanalysis.py
+    Authors: Simen Davanger Wilberg, ...
+    Date created: 4/27/2017
+    Date last modified: 5/8/2017
+    
+    This is a class definition for the homicide class.
+    An homicide instance is created for each row in the CSV file.
+'''
+
 import pandas as pd
 import homicide_class
 

@@ -1,8 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  5 20:53:27 2017
-@author: Connor Zablow 815560792 CS496 SDSU
-"""
+'''
+    File name: HomicideByCity.py
+    @author: Connor Zablow 815560792 CS496 SDSU
+    Date created: 5/5/2017
+    Date last modified: 5/8/2017
+    
+    Sort the list to find non firearm-related homicides in the city.
+	Blunt Object, Strangulation, Unknown, Knife, Fall, Drowning, Suffocation, Explosives, Fire, Poison
+'''
+
 from operator import itemgetter
 
 class HomicideByCity:

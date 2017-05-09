@@ -1,3 +1,12 @@
+'''
+    File name: homicide_year_sort.py
+    @author: James Boyden
+    Date created: 4/30/2017
+    Date last modified: 5/8/2017
+    
+    Sorts the list by relation, and finds the most common relationship between the victim and perpatrator.
+'''
+
 def  sort_by_rel(homicide_array, outputLoc):
     myfile = open(outputLoc, "a")
     # list of relationship types
