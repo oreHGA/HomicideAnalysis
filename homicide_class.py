@@ -18,5 +18,3 @@ class Homicide:
         self.Weapon = singlerecord[13]
         self.vic_count = singlerecord[14]
         self.perp_count = singlerecord[15]
-
-        #   come back to sort out the code
