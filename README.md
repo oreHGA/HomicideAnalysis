@@ -66,7 +66,7 @@ California 68270
   Michigan 19443
 
 ## Bottom 5 cities with firearm-related homicides
-      Wyoming 348
+Wyoming 348
 New Hampshire 296
       Vermont 229
  South Dakota 186
